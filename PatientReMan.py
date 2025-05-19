@@ -56,7 +56,7 @@ def quick_sort(patients, key):
 def linear_search(patients, key, value):
     return [p for p in patients if str(getattr(p, key)).lower() == str(value).lower()]
 
-# Binary Search (List must be sorted by key)
+# Binary Search 
 def binary_search(patients, key, value):
     low, high = 0, len(patients) - 1
     while low <= high:
