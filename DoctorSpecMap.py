@@ -13,7 +13,7 @@ class Specialization(Enum):
 # Dictionary (Map) for Doctor Records
 class DoctorSpecializationMap:
     def __init__(self):
-        self.doctor_map = {}  # Map to store doctor name and their specialization
+        self.doctor_map = {}  
     
     # Add a doctor record (Name -> Specialization)
     def add_doctor(self, doctor_name, specialization):
